@@ -7,7 +7,7 @@ categories: HTML
 
 ## HTML a BITE of hystory
 
-**BIT-1**: BHTML brings a powerful tool to create and interact with any website; every developer in the world must undestand the concepts behind this technology that is live for over 40 years.
+**BIT-1**: HTML brings a powerful tool to create and interact with any website; every developer in the world must undestand the concepts behind this technology that is live for over 40 years.
 
 **BIT-2**:The first intent of hipertext protocols includes a really complex set of instructions to share and interact with files, as Tim Berners-Lee proposed in the 80's. This hipertext protocols developed, could only be handled by experts of those years as it was hard to understand or even to get access to this tools.
 
