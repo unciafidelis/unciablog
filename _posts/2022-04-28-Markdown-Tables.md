@@ -41,7 +41,7 @@ By the way, to see the code, you just have to use the following:
 
 Triple backticks(Yes, that's what they're called...) mark the beginning and the end of the code, while markdown in this case, represents a language. The use of the \ was to bypass the markdown formatting in order to be able to place the backticks and that they all look nice there, if I didn't they would only see the "markdown code goes here" in the section.
 
-Well, now that we know how to make a table, we just have to empty the data of how to make a header and its result:
+Well, now that we know how to make a table, we just have to fetch the data of how to make a header, from the official page of markdown, and its result:
 
 |Markdown|HTML| Rendered Output   
 |:----:|:----:|:----:
@@ -53,7 +53,7 @@ Well, now that we know how to make a table, we just have to empty the data of ho
 |###### Heading|Tag H6|<h6>Heading</h6>	
 
 
-The table is slightly different from the original but for me it is better understood hehe.
+The table is slightly different from the original but for me it is better to understand hehe.
 Now the code:
 
 ```markdown
@@ -70,12 +70,12 @@ As we can see the numeral symbol (this lil fella #) adds a level to the font siz
 
 Note that there is a space between the numeral and the header name, if you omit it, this will happen:
 
-#This has no space but a numeral
+#This has a numeral but no space
 
 contrary to:
 
 # This DOES have a space and a numeral
 
-there is another way to make headers but no sane person would use it... so for all of us to keep sanity and practicality let's stick with this simple method.
+there is another way to make headers... but no sane person would use it... so for all of us to keep sanity and practicality let's stick with this simple method.
 
-Now you know how to make tables and headers in Markdown! WHAT!?
+Now we all know how to make tables and headers in Markdown! WHAT!?
