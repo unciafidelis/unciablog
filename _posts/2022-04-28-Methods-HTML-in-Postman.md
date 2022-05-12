@@ -13,6 +13,20 @@ categories: HTML
 
 #### 1.- GET
 
+This method obtains data by a request done to an API
+
+In Node Express:
+
+```javascript
+var express = require('express');
+var app = express();
+
+// respond with "hello world" when a GET request is made to the homepage
+app.get('/', function(req, res) { // The home page in this case is in /
+  res.send('hello world'); //This is the response of the request, in this case the request is just accesing to the homepage /
+});
+```
+
 #### 2.- POST
 
 #### 3.- PUT
