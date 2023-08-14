@@ -5,7 +5,7 @@ date:   2022-04-28 17:02:14 -0500
 categories: Markdown
 ---
 
-# MarkDown Sintaxis básica - Tablas y encabezados 
+# MarkDown Basic Syntax - Tables and Headers 
 
 ### The hidden art of writing project documentation on github
 
