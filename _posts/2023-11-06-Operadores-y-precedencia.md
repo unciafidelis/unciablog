@@ -5,49 +5,60 @@ date:   2023-11-06 09:25:14 -0500
 categories: HTML
 ---
 
-### Variables:
-Python es un lenguaje de programación que te permite almacenar datos en variables. Puedes pensar en una variable como un contenedor que guarda un valor. Aquí tienes un ejemplo de cómo definir y usar una variable en Python:
+### Operadores y Precedencia (Operators and Precedence):
+Python admite varios operadores para realizar operaciones matemáticas, lógicas y de comparación. La precedencia de los operadores determina el orden en que se evalúan. Por ejemplo, el operador de multiplicación (`*`) tiene una mayor precedencia que el de suma (`+`), por lo que se evalúa primero. Puedes usar paréntesis para controlar la precedencia. Aquí tienes algunos ejemplos:
 
 ```python
-my_variable = 10
-print(my_variable)  # Esto imprimirá 10 en la pantalla
+x = 10
+y = 5
+
+suma = x + y
+resta = x - y
+multiplicacion = x * y
+division = x / y
+
+# Puedes usar paréntesis para controlar la precedencia
+resultado = (x + y) * (x - y)
 ```
 
-### Expresiones y Operadores:
-En Python, puedes realizar operaciones matemáticas usando operadores. Algunos operadores básicos son `+`, `-`, `*`, `/`. Por ejemplo:
+### Tipos de Datos y Conversión (Data Types and Type Casts):
+Python tiene varios tipos de datos incorporados, como `int` (enteros), `float` (números de punto flotante) y `str` (cadenas). A veces, es necesario convertir entre estos tipos. Aquí tienes ejemplos de conversión de tipos:
 
 ```python
-x = 5
-y = 3
-suma = x + y  # Esto almacenará 8 en la variable 'suma'
+x = 10
+y = "5"
+
+# Convertir 'y' a un entero
+y_entero = int(y)
+
+# Convertir 'x' a una cadena
+x_cadena = str(x)
 ```
 
-### Tip:
-Python es un lenguaje de tipado dinámico, lo que significa que no necesitas declarar el tipo de una variable. Python infiere el tipo automáticamente.
-
-### Tipo de Datos y Conversión:
-Python tiene varios tipos de datos, como enteros (`int`), flotantes (`float`), cadenas (`str`), y más. Puedes convertir entre ellos si es necesario. Por ejemplo:
-
-```python
-x = 5
-y = "10"
-suma = x + int(y)  # Convierte 'y' en un entero antes de la suma
-```
-
-### Strings (Cadenas):
-Las cadenas son secuencias de caracteres. Puedes manipularlas de muchas maneras, como concatenarlas o acceder a caracteres individuales:
+### Operaciones en Cadenas (Operations on Strings):
+Puedes realizar diversas operaciones en cadenas, como la concatenación (unión de cadenas), la longitud de una cadena y la búsqueda de subcadenas. Aquí tienes ejemplos:
 
 ```python
 cadena1 = "Hola"
-cadena2 = " Mundo"
-saludo = cadena1 + cadena2  # Esto dará como resultado "Hola Mundo"
-primer_caracter = cadena1[0]  # Accede al primer carácter (índice 0)
+cadena2 = "Mundo"
+
+# Concatenación de cadenas
+saludo = cadena1 + " " + cadena2  # Esto dará como resultado "Hola Mundo"
+
+# Longitud de una cadena
+longitud = len(saludo)  # Esto dará como resultado 11
+
+# Buscar una subcadena en una cadena
+busqueda = "Hola" in saludo  # Esto dará como resultado True
 ```
 
 ### Input (Entrada):
-Puedes obtener información del usuario utilizando la función `input()`:
+La función `input()` se usa para obtener datos de entrada del usuario. Ten en cuenta que lo que se ingresa a través de `input()` se almacena como una cadena, por lo que puedes necesitar convertirlo según sea necesario:
 
 ```python
-nombre = input("Por favor, introduce tu nombre: ")
-print("Hola, " + nombre)
+edad = input("Por favor, introduce tu edad: ")
+# 'edad' es una cadena, puedes convertirla a un entero si es necesario
+edad_entero = int(edad)
 ```
+
+Estos son los conceptos básicos para la sección NB02 de tu temario. Si tienes alguna pregunta o necesitas ejemplos adicionales, no dudes en preguntar. Continuaremos con la siguiente sección en el siguiente mensaje.
