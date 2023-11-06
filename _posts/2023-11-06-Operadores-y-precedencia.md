@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Datos simples de Python. Variables, expresiones y declaraciones."
+title:  "Operadores y precedencia"
 date:   2023-11-06 09:25:14 -0500
 categories: HTML
 ---
