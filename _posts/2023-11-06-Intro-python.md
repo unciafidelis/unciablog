@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Simple Python Data. Variables, expressions, and statements."
+title:  "Datos simples de Python. Variables, expresiones y declaraciones."
 date:   2023-11-06 09:25:14 -0500
 categories: HTML
 ---
-
-## Simple Python Data. Variables, expressions, and statements.
 
 ### Variables:
 Python es un lenguaje de programación que te permite almacenar datos en variables. Puedes pensar en una variable como un contenedor que guarda un valor. Aquí tienes un ejemplo de cómo definir y usar una variable en Python:
