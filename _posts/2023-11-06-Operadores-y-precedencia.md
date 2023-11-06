@@ -60,5 +60,3 @@ edad = input("Por favor, introduce tu edad: ")
 # 'edad' es una cadena, puedes convertirla a un entero si es necesario
 edad_entero = int(edad)
 ```
-
-Estos son los conceptos básicos para la sección NB02 de tu temario. Si tienes alguna pregunta o necesitas ejemplos adicionales, no dudes en preguntar. Continuaremos con la siguiente sección en el siguiente mensaje.
