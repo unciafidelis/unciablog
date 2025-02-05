@@ -52,12 +52,22 @@ Aquí, `sumar` es un **método** porque está dentro de la clase `Calculadora` y
 ---
 
 ### **Diferencias Clave**
-| Característica      | Función                         | Método                                  |
-|---------------------|--------------------------------|-----------------------------------------|
-| **Ubicación**      | Independiente, fuera de clases | Dentro de una clase                     |
-| **Uso de self**    | No usa `self`                  | Usa `self` para acceder a atributos     |
-| **Llamado**        | Se llama directamente          | Se llama desde un objeto (`obj.metodo()`) |
-| **Ejemplo de llamada** | `sumar(5, 3)`               | `obj.sumar(3)`                          |
+
+- **Ubicación**  
+  - Función: Independiente, fuera de clases  
+  - Método: Dentro de una clase  
+
+- **Uso de self**  
+  - Función: No usa `self`  
+  - Método: Usa `self` para acceder a atributos  
+
+- **Llamado**  
+  - Función: Se llama directamente  
+  - Método: Se llama desde un objeto (`obj.metodo()`)  
+
+- **Ejemplo de llamada**  
+  - Función: `sumar(5, 3)`  
+  - Método: `obj.sumar(3)`  
 
 ---
 En otras palabras:
