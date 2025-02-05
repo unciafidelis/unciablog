@@ -56,14 +56,30 @@ print(calc.sumar(3))  # Salida: 8
 ---
 
 ## **📌 Comparación Directa**
-| Característica   | Función | Método |
-|-----------------|---------|--------|
-| **Independencia** | Sí | No, depende de una clase |
-| **Acceso a atributos de objetos** | No | Sí, a través de `self` |
-| **Encapsulación** | No | Sí |
-| **Reutilización** | Alta (puede llamarse en cualquier parte) | Media (debe crearse un objeto antes) |
-| **Rendimiento** | Más rápido | Ligeramente más lento (por `self`) |
-| **Uso en Programación Orientada a Objetos** | No | Sí |
+
+- **Independencia**  
+  - Función: Sí  
+  - Método: No, depende de una clase  
+
+- **Acceso a atributos de objetos**  
+  - Función: No  
+  - Método: Sí, a través de `self`  
+
+- **Encapsulación**  
+  - Función: No  
+  - Método: Sí  
+
+- **Reutilización**  
+  - Función: Alta (puede llamarse en cualquier parte)  
+  - Método: Media (debe crearse un objeto antes)  
+
+- **Rendimiento**  
+  - Función: Más rápido  
+  - Método: Ligeramente más lento (por `self`)  
+
+- **Uso en Programación Orientada a Objetos**  
+  - Función: No  
+  - Método: Sí  
 
 ---
 
