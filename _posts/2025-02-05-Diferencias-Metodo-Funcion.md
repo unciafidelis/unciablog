@@ -5,8 +5,6 @@ date:   2025-02-05 05:39:14 -0500
 categories: Python
 ---
 
-### **Diferencia entre Función y Método en Python**  
-
 En **Python**, tanto **funciones** como **métodos** son bloques de código reutilizables, pero tienen diferencias clave en su uso y contexto.
 
 ---
